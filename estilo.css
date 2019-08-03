@@ -1,0 +1,68 @@
+body {
+    background: rgb(170, 145, 90);
+    font: normal 15pt Arial;
+
+}
+header {
+    color: rgb(56, 56, 56);
+    text-align: center;
+
+}
+section {
+    color: black;
+    background: rgb(238, 234, 200);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.808);
+}
+
+p{
+    font: normal 18px Arial;
+    vertical-align: middle;
+}
+p#paragrafo_1{
+    font-size: 20px;
+}
+
+input#numero{
+    vertical-align: middle;
+    width: 60px;
+    height: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+
+}
+
+input#btn_adicionar{
+    vertical-align: middle;
+    width: 90px;
+    height: 26px;
+    font: normal 18px arial;
+    margin-left: 10px;
+
+}
+
+select{
+    width: 250px;
+    font-size: 18px;
+    
+}
+
+input#btn_analisar{
+    vertical-align: middle;
+    width: 90px;
+    height: 26px;
+    font: normal 18px arial;
+
+}
+
+footer#pe {
+    color:rgb(56, 56, 56);
+    text-align: center;
+    font-size: 10px;
+
+}
+
+

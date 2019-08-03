@@ -1,1 +1,47 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analisador de Números</title>
+    
+    <!--link para CSS em arquivo externo--> 
+    <link rel="stylesheet" href="estilo.css"> 
+    
+    
+</head>
+
+<body>
+    <header>
+        <h1>Analisador de Números v1.0 (Git)</h1>
+    </header>
+
+    <section>
+        <div>
+            <p id="paragrafo_1">
+                 Número <small>(entre 0 e 100)</small>:
+                <input type="number" name="numero" id="numero">
+                <input type="button" value="Adicionar" id="btn_adicionar" onclick="adicionar()">
+            </p>
+            <p id="paragrafo_2">
+                <select name="cx_itens" id="cx_itens" size="10"></select>                
+            </p>
+            <p><input type="button" value="Analisar" id="btn_analisar" onclick="analisar()"></p>
+            <p id="total_numeros">Total de números inseridos:</p>
+            <p id="maior">Maior número:</p>
+            <p id="menor">Menor número:</p>
+            <p id="soma">Soma de todos os números:</p>
+            <p id="media">Média:</p>      
+
+        </div>
+
+    </section>
+
+    <footer id="pe">
+        <p>&copy; André Luiz Rigotto</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
